@@ -10,7 +10,7 @@
         body
         {
             width: 100%;
-            height: 150vh;
+            height: 100vh;
             background-image: linear-gradient(45deg,rgb(126, 166, 180),darkblue);
             overflow: hidden;
         }
@@ -55,7 +55,7 @@ function Pega_Tecla(e)
             console.log(tecla);
 
             data = new Date()
-            tempo_inicial = data.getTime()
+            tempo_final = data.getTime()
 
             if(tempo_final - tempo_inicial > 1000)
             {
